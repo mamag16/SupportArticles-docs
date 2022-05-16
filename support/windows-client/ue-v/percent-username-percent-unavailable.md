@@ -45,3 +45,7 @@ To fix this issue, enable one or both of the following registry keys to prevent 
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive]
 "HasPerMachineSystrayIconBeenPromoted"=dword:00000001
+
+### Per computer OneDrive 64-bit installation
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive] "HasAMD64PerMachineSystrayIconBeenPromoted" = dword: 00000001
+
